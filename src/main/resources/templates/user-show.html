@@ -9,8 +9,12 @@
     </head>
     <body>
         <div class="container my-5">
-            <p>Welcome to Spring Boot with Thymeleaf</p>
-            <p><a th:href="@{/users}">Show all users</a></p>
+            <h4 class="alert-heading" th:text="${user.firstName + ' ' + user.lastName}"></h4>
+            <p>Age: <span th:text="${user.age}"></span></p>
+            <p>Address: <span th:text="${user.address}"></span></p>
+            <p>Username: <span th:text="${user.username}"></span></p>
+            <hr />
+            <p>Created at: <span th:text="${user.createdAt}"></span></p>
         </div>
     </body>
 </html>

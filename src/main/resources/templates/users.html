@@ -26,7 +26,7 @@
                         <td th:text="${user.address}"></td>
                         <td>
                             <ul>
-                                <li><a href="#">View</a></li>
+                                <li><a th:href="@{/user-show/{id}(id=${user.id})}">View</a></li>
                                 <li><a href="#">Edit</a></li>
                                 <li><a href="#">Delete</a></li>
                             </ul>

@@ -1,5 +1,5 @@
 # Spring Boot Thymeleaf
-Spring Boot Demo with Thymeleaf template engines.
+Spring Boot Demo with Thymeleaf template engine.
 
 ## Before running
 Create database with name ```db-thymeleaf```.
